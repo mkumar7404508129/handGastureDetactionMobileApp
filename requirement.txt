@@ -1,0 +1,4 @@
+#For this project i use mediapipe
+#android studio 
+#java Language
+ 
