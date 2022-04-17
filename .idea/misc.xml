@@ -7,12 +7,16 @@
         <entry key="hands/src/main/res/drawable/0_background.xml" value="0.1" />
         <entry key="hands/src/main/res/drawable/four_background.xml" value="0.15" />
         <entry key="hands/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.15" />
+        <entry key="hands/src/main/res/drawable/ic_hand_gesture_svgrepo_com.xml" value="0.1" />
         <entry key="hands/src/main/res/drawable/ic_launcher_background.xml" value="0.1565" />
         <entry key="hands/src/main/res/drawable/one_background.xml" value="0.15" />
+        <entry key="hands/src/main/res/drawable/outofrange_background.xml" value="0.1" />
         <entry key="hands/src/main/res/drawable/three_background.xml" value="0.15" />
+        <entry key="hands/src/main/res/drawable/zero_background.xml" value="0.1" />
         <entry key="hands/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="hands/src/main/res/mipmap-anydpi-v26/four.xml" value="0.15" />
         <entry key="hands/src/main/res/mipmap-anydpi-v26/four_round.xml" value="0.15" />
+        <entry key="hands/src/main/res/mipmap-anydpi-v26/hand__round.xml" value="0.1" />
         <entry key="hands/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1135" />
         <entry key="hands/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1135" />
         <entry key="hands/src/main/res/mipmap-anydpi-v26/one.xml" value="0.15" />
