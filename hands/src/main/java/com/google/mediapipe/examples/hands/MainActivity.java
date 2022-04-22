@@ -14,6 +14,8 @@
 
 package com.google.mediapipe.examples.hands;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -54,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements MyCallback{
   // Run the pipeline and the model inference on GPU or CPU.
   private static final boolean RUN_ON_GPU = true;
 
+
+  //This is for changing the text in layout
   @Override
   public void updateMyText(String myString) {
     try {
@@ -67,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements MyCallback{
               showImageView.setImageResource(R.mipmap.zero_foreground);
               break;
             case 1:
-              showImageView.setImageResource(R.mipmap.one);
+              showImageView.setImageResource(R.mipmap.ic_launcher_foreground);
               break;
             case 2:
               showImageView.setImageResource(R.mipmap.tow_foreground);
@@ -92,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements MyCallback{
     }
 
   }
+
   private enum InputSource {
     UNKNOWN,
     CAMERA,
@@ -186,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements MyCallback{
     // Initializes a new Gl surface view with a user-defined HandsResultGlRenderer.
     glSurfaceView =
         new SolutionGlSurfaceView<>(this, hands.getGlContext(), hands.getGlMajorVersion());
-    glSurfaceView.setSolutionResultRenderer(new HandsResultGlRenderer(MainActivity.this));
+    glSurfaceView.setSolutionResultRenderer(new HandsResultGlRenderer(MainActivity.this,MainActivity.this));
     glSurfaceView.setRenderInputImage(true);
 
     try {
